@@ -1,0 +1,150 @@
+body{
+ background-color: rgb(220, 216, 216);
+}
+.cabeçalho{
+ background-color: rgb(92, 106, 202);
+ height: 100px;
+ width: auto;
+ margin: 5px;
+ padding: 1px;
+ display: flex;
+ border: 5px solid rgb(146, 195, 209);
+ border-radius: 7px;
+ justify-content: center;
+ 
+}
+.titulo{
+ display: flex;
+ flex-wrap: nowrap;
+ flex-direction: row;
+ margin: 5px;
+ padding: 5px;
+
+}
+.titulo h1{
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline white;
+    align-self: center;
+}
+.titulo a{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    align-self: center;
+    text-decoration: underline lightgray;
+    align-self: center;
+    margin: 10px;
+}
+.titulo a:hover{
+    font-size: 22px;
+    border:3px solid rgb(68, 68, 214) ;
+    border-radius: 20px;
+}
+.camara{
+    background-color: rgb(190, 185, 185);
+    color: rgb(31, 29, 90);
+    border: 3px dashed rgb(62, 61, 61);
+    border-radius: 150px;
+    font-size: 25px;
+    width: auto;
+    text-align:center;
+}
+.categorias{
+    color: black;
+    font-size:20px;
+    font-weight: bolder;
+    text-align: center;
+    display: inline;
+    border-bottom: 2px dashed black;
+    padding-bottom: 5px;
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1200px;
+}
+.imagem img{
+    width:230px ;
+    height:300px ;
+    padding: 4px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.imagem img:hover{
+    width: 240px;
+    height: 310px;
+    border: 10px double rgb(49, 181, 49);
+   border-radius: 5px;
+
+}
+.descrição{
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(199, 193, 193);
+    border: 3px solid rgb(62, 60, 60);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 18px;
+    color: rgb(9, 32, 66);
+    border-radius: 5px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    
+}
+.descrição:hover{
+    width: 1050px;
+    height: 300px;
+    border: 10px double rgb(62, 60, 60);
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 15px;
+    font-size: 27px;
+    
+}
+.valor{
+    color:green;
+    font-size: 20px;
+    text-decoration: underline;
+    border: 2px solid transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.valor:hover{
+    border: 2px solid green;
+}
+
+.rodapé{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;;
+    justify-content: stretch;
+    align-items: start;
+    align-content: flex-start;
+    border-bottom: 5px solid rgb(22, 59, 128);
+}
+.logos img{
+    display: flex ;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    bottom: 50px;
+    border: 2px solid black;
+    border-radius: 30%;
+    display: inline;
+}
+.logos img:hover{
+border: 6px double black;
+}
+.mensagem{
+    margin-right: 700px
+}

@@ -1,0 +1,105 @@
+body{
+ background-color: rgb(220, 216, 216);
+ width: 600px;
+ height: 600px;
+}
+.corpo{
+    width: 1320px;
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content:start;
+}
+.cabeçalho{
+    background-color: rgb(92, 106, 202);
+    border: 5px solid rgb(146, 195, 209) ;
+    border-radius:10px ;
+    width: 130px;
+    height: 600px;
+    writing-mode: vertical-lr;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.titulo{
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    margin-left: -13px;
+    width: 120px;
+}
+.titulo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+.menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    writing-mode: horizontal-tb;
+}
+.menu a{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline lightgray;
+    margin: 5px;
+ 
+}
+.menu a:hover{
+    font-size: 19px;
+    border:3px solid rgb(68, 68, 214) ;
+    border-radius: 20px;
+}
+.texto{
+    background-color: rgb(192, 189, 189);
+    height: 610px;
+    width: 1000px;
+    margin: 10px;
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}
+.texto h1{
+    color: rgb(66, 66, 66);
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    text-decoration: underline;
+    text-align: center;
+}
+.texto h2{
+    color: black;
+    font-size: 22px;
+    font-family:  Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.texto p{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.identidade{
+    background-color: rgb(230, 225, 225);
+    width :950px ;
+    height: 338px;
+    border-radius: 35px ;
+}
+.identidade:hover{
+    border: 2px solid black;
+    width: 960px;
+    height:350px ;
+}
+.identidade p{
+    text-align: start;
+    margin-left: 15px;
+    color:rgb(92, 106, 202);
+    border-bottom: 2px solid rgb(163, 156, 156);
+}
