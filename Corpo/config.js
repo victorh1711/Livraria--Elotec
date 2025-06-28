@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   area.setSelectionRange(area.value.length, area.value.length);
 
   function insertAtCursor(myField, myValue) {t
-    if (document.selection) {
+    if (document.selection) {  
       myField.focus();
       sel = document.selection.createRange();
       sel.text = myValue;
