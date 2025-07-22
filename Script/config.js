@@ -1,25 +1,26 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const area = document.getElementById('myMultiLineInput');
+const mensagem = document.getElementById('mensagem');
+const text = document.getElementById('text');
+const button = document.getElementById('send');
+const bottle = document.getElementById('bottle')
 
-  area.focus(); // Foca no textarea
-  area.setSelectionRange(area.value.length, area.value.length);
+function reset(){
+    text.value = ''
+    button.classList.remove('bottle')
+    button.classList.add('send')
+    button.disabled = true
+    bottle.textContent = 'Seu feedback foi enviado!'
+    button.textContent = 'V'
+    mensagem.textContent = ''
+}
 
-  function insertAtCursor(myField, myValue) {t
-    if (document.selection) {  
-      myField.focus();
-      sel = document.selection.createRange();
-      sel.text = myValue;
+function teste(){
+    if(text.value != ''){
+        mensagem.textContent = 'Aguarde...'
+        mensagem.style.color = 'blue'
+        setTimeout(reset, 5000)
+
+    } else if(text.value == ''){
+        mensagem.textContent = 'O campo está vazio...'
+        mensagem.style.color = 'red'
     }
-    else if (myField.selectionStart || myField.selectionStart == '0') {
-      var startPos = myField.selectionStart;
-      var endPos = myField.selectionEnd;
-      myField.value = myField.value.substring(0, startPos)
-        + myValue
-        + myField.value.substring(endPos, myField.value.length);
-      myField.selectionStart = startPos + myValue.length;
-      myField.selectionEnd = startPos + myValue.length;
-    } else {
-      myField.value += myValue;
-    }
-  }
-});
+}

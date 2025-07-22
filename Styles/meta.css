@@ -79,9 +79,11 @@ button{
 }
 button:hover{
     font-size: 20px;
-    border:3px solid rgb(68, 68, 214) ;
-    height: 30px;
-
+    border:3px solid  blue;
+}   
+button:active{
+    background-color:rgba(0, 0, 0, 0.300) ;
+    width: 300px;
 }
 .informs{
     background-color: rgb(238, 235, 235);
@@ -105,7 +107,7 @@ button:hover{
 .informs p{
     font-size: 18px;
     width: 1300px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     text-align: start;
     margin-top: 30px;
     font-weight: bolder;

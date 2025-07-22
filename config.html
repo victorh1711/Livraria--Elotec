@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avalie</title>
+    <title>Avalie...</title>
     <link rel="stylesheet" href="Styles/config.css">
 </head>
 <body>
     <header>
-        <h1>DÊ SEU FEEDBACK</h1>
-        <a href="index.html">Início</a>
-        <a href="meta.html">Sobre</a>
+        <h1>Configurações</h1>
+        <div>
+            <button onclick="abrirIndex()">Início</button>
+            <button onclick="abrirMeta()">Sobre</button>
+        </div>
     </header>
-    <section class="avalie">
-        <div class="texto">
-            <p>No campo abaixo você poder nos dar seu feedback. Gostariamos e estamos abertos para saber o que você tem a falar sobre nossa livraria.</p>
-            <h2>Após escrever sua avaliação clique em "Enviar feedback" para enviá-la</h2>
-        </div>
-        <div class="enter">
-            <textarea id="input" class="area" placeholder="Digite seu texto aqui..."></textarea>
-            <button onclick="">Enviar feedback</button>
-            <p id="mensagem"></p>
-        </div>
-     </section>
+    <div class="content">
+        <h1>Avalie nosso site:</h1>
+        <textarea id="text" placeholder="Digite seu feedback aqui..." ></textarea>
+        <button id="send" class="bottle" onclick="teste()" >Enviar</button> 
+        <p id="bottle"></p>
+        <p id="mensagem"></p>
+        <p>Saiba que seu feedback pode nos ajudar a aprimorar ainda mais o nosso site, adicionado mais interatividade e qualidade para você, usuario.</p>
+    </div>
+    <script src="Script/config.js"></script>
+    <script src="Script/global.js"></script>
 </body>
 </html>
