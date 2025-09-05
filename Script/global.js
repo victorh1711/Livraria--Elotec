@@ -1,9 +1,13 @@
-function abrirIndex(){
-    window.location.href = 'index.html'
-}
-function abrirConf(){
-    window.location.href = 'config.html'
-}
-function abrirMeta(){
-    window.location.href = 'meta.html'
-}
+const buttonForIndex = document.getElementById('forIndex')
+const buttonForMeta = document.getElementById('forMeta')
+const buttonForConfig = document.getElementById('forConfig')
+
+buttonForIndex.addEventListener("click", function(){
+    window.location.href = "index.html"
+})
+buttonForMeta.addEventListener("click", function(){
+    window.location.href = "meta.html"
+})
+buttonForConfig.addEventListener("click", function(){
+    window.location.href = "config.html"
+})
