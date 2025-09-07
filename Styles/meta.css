@@ -55,11 +55,11 @@ button:active{
     opacity: 0.9;
     width: 330px;
     box-shadow: 2px 2px 10px rgb(102, 101, 101);
-
+    font-size: 17px;
 }
 .content h1, .content h2{
     font-size: 50px;
-    font-family: 'cursive';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     margin-bottom: 150px;
     border-bottom: 2px solid black;
