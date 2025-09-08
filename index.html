@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,61 +7,42 @@
   <link rel="stylesheet" href="Styles/index.css">
 </head>
 <body>
- <header>
-  <section class="cabeçalho">  
-    <div class="titulo">
-      <h1>LOJA ELOTEC</h1>
-       <a href="meta.html">Sobre</a>
-       <a href="config.html">Avalie</a>
-  </section>
-</header>
-
-  <h2 class="camara">Categoria:</h2>
-  <center><p class="categorias">Desenvolvimento de softwer e soft skills</p></center>
-
-  <section class="corpo">
-    <div class="imagem">
-      <img src="Imagen/img001.jpg" alt="Um livro sobre programação, aprenda a lógica e as principais fontes de código">
-    </div>
-        <div class="imagem">
-      <img src="Imagen/img002.jpg" alt="Um livro sobre programação, aprenda a lógica e as principais fontes de código">
-    </div>
-        <div class="imagem">
-      <img src="Imagen/img003.png" alt="Um livro sobre programação, aprenda a lógica e as principais fontes de código">
-    </div>
-    <div class="descrição">
-      <li>
-Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos
-Este livro é uma porta de entrada perfeita para o mundo dos algoritmos, mesmo para quem não tem experiência prévia em programação. Com uma abordagem visual e repleta de exemplos práticos, ele desmistifica conceitos complexos como ordenação, busca e estruturas de dados. Se você quer entender como as ciências e a melhoria de suas soluções, "Entendendo Algoritmos" é um guia divertido e eficaz para construir uma base sólida em ciência da computação.</li>
-<p class="valor">R$105,00</p>
-    </div>
-       <div class="descrição">
-      <li>Código Limpo: Habilidades Práticas do Software Ágil
-Considerado um clássico na área de desenvolvimento de software, “Clean Code” vai além da sintaxe e foca no que realmente importa: escrever código legível, manutenível e elegante. Robert C. Martin (Uncle Bob) compartilha princípios, padrões e práticas que transformarão seu modo de programar. Se você busca aprimorar suas habilidades de escrita de código, tornando-o mais fácil de entender e modificar, este livro é leitura obrigatória para qualquer desenvolvedor sério.</li>
-<p class="valor">R$90,50  </p>
-    </div>
-       <div class="descrição">
-      <li>O Programador Pragmático: De Aprendiz a Mestre
-"O Programador Pragmático" é mais do que um livro técnico; é um guia de filosofia e mentalidade para desenvolvedores. Ele aborda uma ampla gama de tópicos, desde como evitar o "paradoxo do pântano" até a importância de aprender continuamente e de se tornar um pensador crítico. Repleto de conselhos práticos e contemporâneos, este livro irá te ajudar a desenvolver hábitos e abordagens que o transformarão em um programador mais eficiente, produtivo e valorizado. É um manual essencial para quem busca uma carreira esforçada e bem-sucedida no desenvolvimento de software.</li>
-<p class="valor">R$95,00</p>
-    </div>
+  <section class="header">
+      <h1>Livraria Elotec</h1>
+      <div class="navButtons">
+        <button id="forConfig">Avalie</button>  
+        <button id="forMeta">Sobre</button>
+      </div>
   </section>
 
- <footer>
-  <section class="rodapé">
-    <div class="mensagem">
-      <p>Somos uma instituição voltada ao mercado de trabalho.</p>
+  <h1>Categorias e Livros</h1>
+  <section class="categories">
+    <p>DESENVOLVIMENTO DE SOFTWARE</p>
+    <div id="book" class="book">
+      <a href="Imagen/img001.jpg" target="_blank"><img src="Imagen/img001.jpg" alt="Livro sobre programação"></a>
+      <h1>Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos Este livro é uma porta de entrada perfeita para o mundo dos algoritmos, mesmo para quem não tem experiência prévia em programação. Com uma abordagem visual e repleta de exemplos práticos, ele desmistifica conceitos complexos como ordenação, busca e estruturas de dados. Se você quer entender como as ciências e a melhoria de suas soluções, é um guia divertido e eficaz para construir uma base sólida em ciência da computação.<p class="price">R$ 57,00</p></h1>
     </div>
-    <div class="logos">
-      <a href="https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github" target="_blank" title="Git Hub login">
-      <img src="Imagen/github logo.png" alt="github">
-      </a>
-      <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank" title="instagram login">
-        <img src="Imagen/instagram logo.jpeg" alt="instagram">
-      </a>
-      <a href="https://br.linkedin.com/?mcid=6821526239111716925&src=go-pa&trk=sem-ga_campid.12619604099_asid.149519181275_crid.725790844705_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9101581&cid=&gad_source=1&gad_campaignid=12619604099&gbraid=0AAAAABhL5JOUjoChpgxPULrB1KEZmGNjA&gclid=Cj0KCQjwpf7CBhCfARIsANIETVrnKURP90M7QCvkqrrpGNgIPiog_ZggevlPkeSjtMDSkLr_w20KLK8aAlb8EALw_wcB&gclsrc=aw.ds" target="_blank" title="LinkedIn login">
-        <img src="Imagen/LinkedIn logo.png" alt="linkedin">
-      </a>
+    <div id="book" class="book">
+      <a href="Imagen/img002.jpg" target="_blank"><img src="Imagen/img002.jpg" alt="Livro sobre programação"></a>
+      <h1>Código Limpo: Habilidades Práticas do Software Ágil Considerado um clássico na área de desenvolvimento de software, “Clean Code” vai além da sintaxe e foca no que realmente importa: escrever código legível, manutenível e elegante. Robert C. Martin (Uncle Bob) compartilha princípios, padrões e práticas que transformarão seu modo de programar. Se você busca aprimorar suas habilidades de escrita de código, tornando-o mais fácil de entender e modificar, este livro é leitura obrigatória para qualquer desenvolvedor sério.<p class="price">R$ 75,00</p></h1>
+    </div>
+    <div id="book" class="book">
+      <a href="Imagen/img003.png" target="_blank"><img src="Imagen/img003.png" alt="Livro sobre programação"></a>
+      <h1>O Programador Pragmático: De Aprendiz a Mestre "O Programador Pragmático" é mais do que um livro técnico; é um guia de filosofia e mentalidade para desenvolvedores. Ele aborda uma ampla gama de tópicos, desde como evitar o "paradoxo do pântano" até a importância de aprender continuamente e de se tornar um pensador crítico. Repleto de conselhos práticos e contemporâneos, este livro irá te ajudar a desenvolver hábitos e abordagens que o transformarão em um programador mais eficiente, produtivo e valorizado.<p class="price">R$ 95,00</p></h1>
+
     </div>
   </section>
- </footer>
+  
+  <script>
+    const buttonForMeta = document.getElementById('forMeta')
+    const buttonForConfig = document.getElementById('forConfig')
+
+    buttonForMeta.addEventListener("click", function(){
+    window.location.href = 'meta.html'
+  })
+    buttonForConfig.addEventListener("click", function(){
+    window.location.href = "config.html"
+  })
+  </script>
+</body>
+</html>

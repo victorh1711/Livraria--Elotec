@@ -1,0 +1,120 @@
+*{
+    cursor: pointer;
+}
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header{
+    background-color: rgba(96, 106, 202, 0.9);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 1300px;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid rgb(146, 195, 209) ;
+    border-radius: 20px;
+}.header h1{
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.header button{
+    background-color: rgba(96, 106, 202);
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 10px ;
+    margin: 8px;
+    width: 130px;
+    height: 25px;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+    transition: all 0.5s ease;
+    
+}.header button:active{
+    box-shadow: 3px 3px 5px rgb(146, 195, 209);
+    background-color: rgb(78, 90, 197);
+    width: 135px;
+    height: 30px ;
+}
+
+.navButtons{
+    margin-right: auto;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories{
+    background-color: gainsboro;
+}
+
+.categories p{
+    margin-left: 5px;
+    font-size: 20px ;
+    border-left: 3px solid blue;
+}
+
+.book{
+    display: flex;
+    border-bottom: 5px dashed gray;
+    padding: 10px;
+}
+
+.book h1{
+    background-color: rgb(190, 190, 190);
+    border-left: 2px solid white;
+    font-size: 23px;
+    padding: 5px;
+    margin-left: 20px;
+    width: 1000px;
+    height: 300px;
+    transition: all 0.7s ease;
+    border-radius: 10px;
+    text-align: center;
+    cursor: text;
+}.book h1:hover{
+    width: 1200px ;
+    box-shadow: 8px 8px 5px rgb(119, 119, 119);
+}
+.book .price{
+    color: black;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    width: 100px;
+    margin-left: auto;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+    border: 2px solid black;
+    border-radius: 20px ;
+
+
+}
+.book .price:hover{
+    font-size: 25px;
+    border: 2px solid green;
+    color: green;
+}
+
+.book img{
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+}
