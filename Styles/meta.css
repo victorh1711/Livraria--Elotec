@@ -134,3 +134,84 @@ dt{
     width: 60px;
     height: 60px;
 }
+.popUp{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.popupContent{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    max-width: 600px;
+    border: 4px solid rgb(96, 106, 202);
+    border-radius: 20px;
+    background-color: rgb(196, 195, 195);
+    box-shadow: 3px 3px 5px rgb(146, 195, 209);
+    margin: 50px auto;
+    padding: 20px;
+}
+.backButton{
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s ease;
+}
+.backButton:active{
+    width: 145px;
+    height: 37px;
+    box-shadow: 3px 3px 5px rgb(83, 83, 83);
+    background-color: rgb(114, 114, 114);
+}
+.sendText{
+    background-color: rgb(96, 106, 202);
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s ease;
+}
+.sendText:active{
+    width: 145px;
+    height: 37px;
+    box-shadow: 3px 3px 5px rgb(146, 195, 209);
+    background-color: rgb(78, 90, 197);
+}
+.textArea{
+    width: 480px;
+    height: 150px;
+    border-radius: 20px;
+    resize: none;
+    padding: 8px ;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popUp div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.mensagem{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    border: none;
+    margin: 0px;
+}

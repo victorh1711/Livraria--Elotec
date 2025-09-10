@@ -29,20 +29,21 @@
     <div id="book" class="book">
       <a href="Imagen/img003.png" target="_blank"><img src="Imagen/img003.png" alt="Livro sobre programação"></a>
       <h1>O Programador Pragmático: De Aprendiz a Mestre "O Programador Pragmático" é mais do que um livro técnico; é um guia de filosofia e mentalidade para desenvolvedores. Ele aborda uma ampla gama de tópicos, desde como evitar o "paradoxo do pântano" até a importância de aprender continuamente e de se tornar um pensador crítico. Repleto de conselhos práticos e contemporâneos, este livro irá te ajudar a desenvolver hábitos e abordagens que o transformarão em um programador mais eficiente, produtivo e valorizado.<p class="price">R$ 95,00</p></h1>
-
     </div>
   </section>
-  
-  <script>
-    const buttonForMeta = document.getElementById('forMeta')
-    const buttonForConfig = document.getElementById('forConfig')
 
-    buttonForMeta.addEventListener("click", function(){
-    window.location.href = 'meta.html'
-  })
-    buttonForConfig.addEventListener("click", function(){
-    window.location.href = "config.html"
-  })
-  </script>
+  <section class="popUp" id="popUp">
+    <div class="popupContent">
+      <h1>Avalie nossa biblioteca</h1>
+      <textarea class="textArea" id="textArea" placeholder="digite seu feedback..."></textarea>
+      <div>
+        <button class="backButton" id="backButton">voltar</button>
+        <button class="sendText" id="sendText">enviar</button>
+      </div>
+      <p id="mensagem" class="mensagem"></p>
+    </div>
+  </section>
+
+  <script src="Script/index.js"></script>
 </body>
 </html>

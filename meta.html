@@ -38,18 +38,19 @@
       </div>
     </section>
 
-    <script>
-      const buttonForIndex = document.getElementById('forIndex')
-      const buttonForConfig = document.getElementById('forConfig')
+    
+  <section class="popUp" id="popUp">
+    <div class="popupContent">
+      <h1>Avalie nossa biblioteca</h1>
+      <textarea class="textArea" id="textArea" placeholder="digite seu feedback..."></textarea>
+      <div>
+        <button class="backButton" id="backButton">voltar</button>
+        <button class="sendText" id="sendText" >enviar</button>
+      </div>
+      <p id="mensagem" class="mensagem"></p>
+    </div>
+  </section>
 
-      buttonForIndex.addEventListener("click", function(){
-        window.location.href = 'index.html'
-      })
-
-      buttonForConfig.addEventListener("click", function(){
-        window.location.href = 'config.html'
-      })
-    </script>
-
+  <script src="Script/meta.js"></script>
 </body>
 </html>
